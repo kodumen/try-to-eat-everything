@@ -7,7 +7,6 @@ body {
 
 h1 {
     font-size: 4em;
-    text-align: center;
 }
 
 p {
@@ -23,9 +22,10 @@ p {
     text-align: center;
 }
 
-/* Text alignment */
-.center-text {
-    text-align: center;
+i {
+    font-size: 48px !important;
+    vertical-align: middle;
+    padding-right: 0.5em;
 }
 
 /*TITLE SPANS*/
