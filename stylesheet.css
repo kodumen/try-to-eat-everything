@@ -14,7 +14,7 @@ p {
 }
 
 #unityPlayer embed{
-    box-shadow: 0 0 1em #55d992;
+    box-shadow: 0 0 0.35em #55d992;
     margin: 2em auto auto auto;
 }
 
