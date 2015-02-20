@@ -6,6 +6,7 @@ public class MenuEvents : MonoBehaviour {
     public void Play() {
 
         PlayerPrefs.SetInt("score", 0); // Reset the score
+        Time.timeScale = 1f;
         Application.LoadLevel(1);
     }
 
