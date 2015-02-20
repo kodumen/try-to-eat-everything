@@ -1,5 +1,5 @@
 Assembly*
-builds
-Library
-obj
+builds/
+Library/
+obj/
 try-to-eat-everything-web*
