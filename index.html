@@ -67,90 +67,122 @@
         <link rel="stylesheet" href="stylesheet.css">
 	</head>
 	<body>  
-        <!-- Player -->
-        <div class="content container-fluid">
-            <div id="unityPlayer">
+        <div class="container-fluid">
+            
+            <!-- Player -->
+            <div class="row" id="unityPlayer">
                 <div class="missing">
                     <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
                         <img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
                     </a>
                 </div>
+            </div>
+            
+            <!-- Title + Description -->
+            <div class="row" id="description">
+                <div class="col-md-6 col-md-offset-3">
+                    <h1>TRY to EAT<br>EVERYTHING</h1>
+                    <p>Welcome to the game, TRY to EAT EVERYTHING. In this game you are a pale-brown colored thing whose sole purpose in life is to eat everything that appears on the screen. Make the best out of your short, pitiful life and get the highest score by guiding yourself towards the delicious cuisine that are green peas. Be careful though for not everything can be eaten that easily. With no other purpose in life, red enemies are there to obstruct your path and give you an instant death that you truly deserve. However, not all hope is lost. There exist a special way to make even the toughest enemy run away from you.</p>
+                    <p>Please enjoy the game and do not hesitate to give your feedback.</p>
                 </div>
-        </div>
-        
-        <!-- Title -->
-        <div class="container-fluid">
-            <div class="col-md-6 col-md-offset-3 center-text">
-                <h1>TRY to EAT<br>EVERYTHING</h1>
             </div>
-        </div>
-        
-        <!-- Description -->
-        <div class="container-fluid" id="description">
-            <div class="col-md-6 col-md-offset-3">
-                <p>Welcome to the game, TRY to EAT EVERYTHING. In this game you are a pale-brown colored thing whose sole purpose in life is to eat everything that appears on the screen. Make the best out of your short, pitiful life and get the highest score by guiding yourself towards the delicious cuisine that are green peas. Be careful though for not everything can be eaten that easily. With no other purpose in life, red enemies are there to obstruct your path and give you an instant death that you truly deserve. However, not all hope is lost. There exist a special way to make even the toughest enemy run away from you.</p>
-                <p>Please enjoy the game and do not hesitate to give your feedback.</p>
-            </div>
-        </div>
-        
-        <!-- Characters -->
-        <div class="container-fluid">
-            <div class="col-md-6 col-md-offset-3">
-                <h2>Characters</h3>
-            </div>
-        </div>
-        
-        <div class="container-fluid">
-            <div class="col-md-6 col-md-offset-3">
-                <div class="col-md-6">
-                    <h4>Player</h4>
-                    <p>This is you. A pale brown-colored thing who wants to eat everything.</p>
+            
+            <!-- Characters -->
+            <div class="row" id="characters">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2>Characters</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="col-md-4">
+                                <!--icon-->
+                            </div>
+                            <div class="col-md-8">
+                                <h4>Player</h4>
+                                <p>This is you. A pale brown thing who loves to eat. There is nothing more.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="col-md-4">
+                                <!--icon-->
+                            </div>
+                            <div class="col-md-8">
+                                <h4>Enemy</h4>
+                                <p>Red-colored creatures who seem to really hate you. They act tough but there are times when they become too scared of you.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="col-md-4">
+                                <!-- icon-->
+                            </div>
+                            <div class="col-md-8">
+                                <h4>Green Pea</h4>
+                                <p>A normal-tasting food. There's nothing really special about it aside from being abundant.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="col-md-4">
+                                <!--icon-->
+                            </div>
+                            <div class="col-md-8">
+                                <h4>Yellow Pea</h4>
+                                <p>A tasty, yet rare, food that is infused with essential vitamins from A to Zinc. No approved therapeutic claims.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <h4>Green Pea</h4>
-                    <p>A delicious meal packed with healthy vitamins that gives you score.</p>
+            </div>
+            
+            <!--Controls-->
+            <div class="row" id="controls">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2>Controls</h2>
+                    <table class="table">
+                        <tr>
+                            <th>Key</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td>Left Mouse Button (LMB)</td>
+                            <td>Press to make the player follow the cursor. Release to stop moving.</td>
+                        </tr>
+                        <tr>
+                            <td>Right Mouse Button (RMB)</td>
+                            <td>Click to pause the game. Click again to resume.</td>
+                        </tr>
+                        <tr>
+                            <td>Escape (Esc)</td>
+                            <td>Press to pause the game. Press again to resume.</td>
+                        </tr>
+                    </table>
                 </div>
-                <div class="col-md-6">
-                    <h4>Yellow Pea</h4>
-                    <p>A delicious but rare meal that can give you even more score and a special ability.</p>
+            </div>
+            
+            <!--Tips-->
+            <div class="row" id="tips">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2>Tips</h2>
+                    <ul>
+                        <li>Try not to die.</li>
+                        <li>Don't be a pussy when the enemy starts blinking. Eat them.</li>
+                        <li>Lure the enemies somewhere in the middle of the screen before eating the yellow pea.</li>
+                    </ul>
                 </div>
-                <div class="col-md-6">
-                    <h4>Enemy</h4>
-                    <p>Red-colored beings who hate you for some reason. They are annoying and are always in the way. They get scared from time-to-time though.</p>
+            </div>
+            
+            <!--Credits-->
+            <div class="row" id="credits">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2>Credits</h2>
+                    <p>
+                        Art and programming by <a href="http://www.github.com/kodumen">kodumen</a> | 
+                        <a href="http://opengameart.org/content/8-bit-platformer-sfx">8-bit Platformer SFX</a> commissioned by Mark McCorkle for <a href="http://opengameart.org">OpenGameArt.org</a> | 
+                        Created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a>
+                    </p>
                 </div>
-                
             </div>
         </div>
-        
-        <!-- Controls -->
-        <div class="container-fluid">
-            <div class="col-md-6 col-md-offset-3">
-                <h2>Controls</h2>
-            </div>
-        </div>
-        
-        <div class="container-fluid">
-            <div class="col-md-6 col-md-offet-3">
-                <table>
-                </table>
-            </div>
-        </div>
-        
-        <!-- Tips -->
-        <div class="container-fluid">
-            <div class="col-md-6 col-md-offset-3">
-                <h2>Tips</h2>
-            </div>
-        </div>
-        
-        <div class="container-fluid">
-            <div class="col-md-6 col-md-offet-3">
-                
-            </div>
-        </div>
-        
-        <!-- Footer -->
-        <p class="footer center-text">&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
