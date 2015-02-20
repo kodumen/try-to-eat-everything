@@ -61,3 +61,10 @@ i {
 .btn-text-only {
     text-align: center;
 }
+
+/* GITHUB BUTTONS */
+#github_buttons {
+    margin: auto;
+    width: 372px;
+    padding-bottom: 48px;
+}
