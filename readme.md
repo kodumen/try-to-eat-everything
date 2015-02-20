@@ -6,10 +6,10 @@ Please enjoy the game and do not hesitate to give your feedback.
 ## Characters
 Image | Name | Description
 ----- | ---- | -----------
-![img of Player](http://kodumen.github.io/try-to-eat-everything-web/images/player.png) | Player | This is you. A pale brown thing who loves to eat. There is nothing more.
-![img of Enemy](http://kodumen.github.io/try-to-eat-everything-web/images/enemy.png) | Enemy | Red-colored creatures who seem to really hate you. They act tough but there are times when they become too scared.
-![img of Green Pea](http://kodumen.github.io/try-to-eat-everything-web/images/greenP.png) | Green Pea | A normal-tasting food. There's nothing really special about it aside from being abundant.
-![img og Yellow Pea](http://kodumen.github.io/try-to-eat-everything-web/images/yellowP.png) | Yellow Pea | A tasty, yet rare, food that is infused with essential vitamins from A to Zinc. No approved therapeutic claims.
+![img of Player](http://kodumen.github.io/try-to-eat-everything/images/player.png) | Player | This is you. A pale brown thing who loves to eat. There is nothing more.
+![img of Enemy](http://kodumen.github.io/try-to-eat-everything/images/enemy.png) | Enemy | Red-colored creatures who seem to really hate you. They act tough but there are times when they become too scared.
+![img of Green Pea](http://kodumen.github.io/try-to-eat-everything/images/greenP.png) | Green Pea | A normal-tasting food. There's nothing really special about it aside from being abundant.
+![img og Yellow Pea](http://kodumen.github.io/try-to-eat-everything/images/yellowP.png) | Yellow Pea | A tasty, yet rare, food that is infused with essential vitamins from A to Zinc. No approved therapeutic claims.
 
 ## Controls
 Key | Description
