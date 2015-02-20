@@ -1,6 +1,8 @@
 body {
+    color: #e7ddbe;
+    background: #41272D;
     font-family: 'Oswald', sans-serif !important;
-    font-size: 1.6em;
+    font-size: 1.8em;
 }
 
 h1 {
@@ -13,10 +15,32 @@ p {
 }
 
 #unityPlayer embed{
-    margin: auto;
+    box-shadow: 0 0 1em #55d992;
+    margin: 2em auto auto auto;
+}
+
+.icon-img {
+    text-align: center;
 }
 
 /* Text alignment */
 .center-text {
     text-align: center;
+}
+
+/*TITLE SPANS*/
+.title-green, a {
+    color: #55d992;
+}
+
+.title-pale-brown {
+    color: #e7ddbe;
+}
+
+.title-red {
+    color: #f27e71;
+}
+
+.title-yellow, h2 {
+    color: #d9ad55;
 }
