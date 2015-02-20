@@ -29,7 +29,7 @@ p {
 }
 
 /*TITLE SPANS*/
-.title-green, a {
+.title-green, a, a:visited {
     color: #55d992;
 }
 
@@ -37,7 +37,7 @@ p {
     color: #e7ddbe;
 }
 
-.title-red {
+.title-red, a:hover {
     color: #f27e71;
 }
 
